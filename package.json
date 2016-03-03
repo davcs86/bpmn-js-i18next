@@ -1,7 +1,7 @@
 {
   "name": "bpmn-js-i18next",
   "version": "0.0.1",
-  "description": "Custom implementation of bpmn-js",
+  "description": "Localization module for bpmn-js using i18next library",
   "author": "David Castillo (https://github.com/davcs86)",
   "repository": {
     "type": "git",
