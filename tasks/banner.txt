@@ -1,0 +1,12 @@
+/*!
+ * <%= pkg.name %> - <%= config.variant %> v<%= pkg.version %>
+
+ * Copyright 2016. David Castillo <davcs86@gmail.com>
+ *
+ * Released under the MIT license
+ * https://github.com/davcs86/bpmn-js-i18next/blob/master/LICENSE
+ *
+ * Source Code: https://github.com/davcs86/bpmn-js-i18next
+ *
+ * Date: <%= grunt.template.today("yyyy-mm-dd") %>
+ */
