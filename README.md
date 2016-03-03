@@ -1,6 +1,6 @@
-# bpmn-js-i18next - Translation module for bpmn-js
+# bpmn-js-i18next - Localization module for bpmn-js
 
-Localization module for [bpmn-js](https://github.com/bpmn-io/bpmn-js) using [i18next](https://github.com/i18next/i18next).
+Localization module for [bpmn-js](https://github.com/bpmn-io/bpmn-js) using [i18next](https://github.com/i18next/i18next) library.
 
 ## Usage
 
@@ -37,11 +37,9 @@ var bpmnJS = new BpmnJS({
 });
 ```
 
-## Bootstrap bpmn-js-i18next
+## Install bpmn-js-i18next
 
 ### via npm
-
-In your project folder,
 
 ```shell
 $> npm install --save davcs86/bpmn-js-i18next
@@ -53,36 +51,13 @@ include it in your code with
 var i18nModule = require('bpmn-js-i18next');
 ```
 
-### Browser
+### via bower
 
-You need to download the source and bundle it.
+```shell
+$> bower install --save davcs86/bpmn-js-i18next
+```
 
-1. Clone this repo
-
-    ```shell
-    $> git clone https://github.com/davcs86/bpmn-js-i18next.git
-    ```
-
-1. Install the _NPM_ packages
-
-    ```shell
-    $> cd bpmn-js-i18next && npm install
-    ```
-
-1. Build the _Browserify UMD bundle_ with _grunt_
-
-    ```shell
-    $> grunt build
-    ```
-
-1. Files will be in the folder `dist`
-
-    ```shell
-    $> cd dist && ls
-       bpmn-js-18next.js bpmn-js-18next.js.map bpmn-js-i18next.min.js
-    ```
-
-1. Use it in your favorite way
+include it in your favorite way
 
     **CommonJS**
     ```js
@@ -102,3 +77,31 @@ You need to download the source and bundle it.
         console.log(window.BpmnJS_i18next);
     </script>
     ```
+
+## Work with the code
+
+1. Clone this repo
+
+    ```shell
+    $> git clone https://github.com/davcs86/bpmn-js-i18next.git
+    ```
+
+1. Install the _NPM_ packages
+
+    ```shell
+    $> cd bpmn-js-i18next && npm install
+    ```
+
+1. Build the _Browserify UMD bundle_
+
+    ```shell
+    $> grunt build
+    ```
+
+1. Files will be in the folder `dist`
+
+    ```shell
+    $> cd dist && ls
+       bpmn-js-18next.js bpmn-js-18next.js.map bpmn-js-i18next.min.js
+    ```
+
