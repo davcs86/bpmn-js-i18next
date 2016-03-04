@@ -59,24 +59,29 @@ $> bower install --save davcs86/bpmn-js-i18next
 
 include it in your favorite way
 
-    **CommonJS**
-    ```js
+  **CommonJS**
+    
+  ```js
     var translateModule = require('./bpmn-js-18next.js');
     console.log(translateModule);
-    ```
-    **AMD**
-    ```js
-    define(['./bpmn-js-18next.js'], function(translateModule) {
-        console.log(translateModule);
-    });
-    ```
-    **Browser without a module loader**
-    ```html
-    <script src="bpmn-js-18next.js"></script>
-    <script>
+  ```
+  
+  **AMD**
+  
+  ```js
+  define(['./bpmn-js-18next.js'], function(translateModule) {
+      console.log(translateModule);
+  });
+  ```
+  
+  **Browser without a module loader**
+  
+  ```html
+  <script src="bpmn-js-18next.js"></script>
+  <script>
         console.log(window.BpmnJS_i18next);
-    </script>
-    ```
+  </script>
+  ```
 
 ## Work with the code
 
