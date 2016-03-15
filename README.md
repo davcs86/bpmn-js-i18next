@@ -1,6 +1,8 @@
 # bpmn-js-i18next - Localization module for bpmn-js
 
-Localization module for [bpmn-js](https://github.com/bpmn-io/bpmn-js) using [i18next](https://github.com/i18next/i18next) library.
+[![Build Status](https://travis-ci.org/davcs86/bpmn-js-i18next.svg?branch=master)](https://travis-ci.org/davcs86/bpmn-js-i18next)
+
+Helper module for translate [bpmn-js](https://github.com/bpmn-io/bpmn-js) using [i18next](https://github.com/i18next/i18next) library.
 
 ## Usage
 
